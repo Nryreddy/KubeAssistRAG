@@ -1,0 +1,22 @@
+# Python / Virtual Environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+
+# Environments / Secrets
+.env
+.env.*
+!.env.example
+
+# UV / Package managers
+.uv/
+.python-version
+
+# OS files
+.DS_Store
+Thumbs.db
