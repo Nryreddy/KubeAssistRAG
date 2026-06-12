@@ -1772,6 +1772,7 @@ dev = [
 dev = [
     { name = "datasets" },
     { name = "langchain-openai" },
+    { name = "plotly" },
     { name = "ragas" },
 ]
 
@@ -1818,6 +1819,7 @@ provides-extras = ["dev"]
 dev = [
     { name = "datasets", specifier = ">=4.8.5" },
     { name = "langchain-openai", specifier = ">=1.2.2" },
+    { name = "plotly", specifier = ">=5.18.0" },
     { name = "ragas", specifier = ">=0.3.1" },
 ]
 
